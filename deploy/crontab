@@ -1,0 +1,2 @@
+# Daily scrape + build + publish to /srv/alevi-kalender (install with: crontab -e)
+17 4 * * * /root/alevi-calendar/scripts/update.sh

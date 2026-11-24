@@ -1,0 +1,6 @@
+{
+  "_comment": "Manual corrections applied after scraping. 'fix' changes fields of a scraped event by id; 'add' appends whole events; 'remove' drops ids.",
+  "fix": {},
+  "add": [],
+  "remove": []
+}

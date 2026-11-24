@@ -1,0 +1,11 @@
+{
+  "base_url": "https://kalender.bdas.de/",
+  "uid_domain": "bdas.de",
+  "source_url": "https://aabf-inanc-kurulu.com/alevitische-feiertage-2023-2024/",
+  "calendar_names": {
+    "de": "Alevitischer Kalender",
+    "tr": "Alevi Takvimi",
+    "en": "Alevi Calendar"
+  },
+  "deploy_target": "/srv/alevi-kalender/"
+}

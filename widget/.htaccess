@@ -1,0 +1,17 @@
+# Apache (most shared hosting). Upload together with the other files.
+AddType text/calendar .ics
+AddType application/json .json
+AddCharset utf-8 .ics .json .js .html
+
+<IfModule mod_headers.c>
+  # Let other websites load the API, the feeds and the widget.
+  <FilesMatch "\.(json|ics|js)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+  # embed.html must be allowed inside iframes on other sites.
+  <Files "embed.html">
+    Header unset X-Frame-Options
+    Header always unset X-Frame-Options
+  </Files>
+</IfModule>

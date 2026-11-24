@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alevitischer Kalender</title>
+<style>html,body{margin:0;background:transparent}body{padding:4px}</style>
+</head>
+<body>
+<alevi-calendar target="_blank"></alevi-calendar>
+<script src="alevi-calendar.js"></script>
+<script>
+  (function () {
+    var p = new URLSearchParams(location.search), el = document.querySelector("alevi-calendar");
+    ["lang", "year", "target"].forEach(function (k) { var v = (p.get(k) || "").split(/["\s]/)[0]; if (v) el.setAttribute(k, v); });
+    // Tell the parent page our height so it can size the iframe (optional snippet on the parent page).
+    function report() {
+      parent.postMessage({ type: "alevi-calendar:height", height: document.documentElement.scrollHeight }, "*");
+    }
+    if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
+    addEventListener("load", report);
+  })();
+</script>
+</body>
+</html>

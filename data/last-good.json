@@ -1,0 +1,383 @@
+{
+  "scraped": "2026-11-18T07:53:10Z",
+  "events": [
+    {
+      "id": "2025-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2025-02-11",
+      "end": "2025-02-13"
+    },
+    {
+      "id": "2025-nevruz",
+      "key": "nevruz",
+      "start": "2025-03-21",
+      "end": "2025-03-21"
+    },
+    {
+      "id": "2025-hz-ali-todestag",
+      "key": "hz-ali-todestag",
+      "start": "2025-03-21",
+      "end": "2025-03-21"
+    },
+    {
+      "id": "2025-hidirellez",
+      "key": "hidirellez",
+      "start": "2025-05-05",
+      "end": "2025-05-06"
+    },
+    {
+      "id": "2025-opferfest",
+      "key": "opferfest",
+      "start": "2025-06-06",
+      "end": "2025-06-06"
+    },
+    {
+      "id": "2025-gadir-hum",
+      "key": "gadir-hum",
+      "start": "2025-06-14",
+      "end": "2025-06-14"
+    },
+    {
+      "id": "2025-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2025-06-22",
+      "end": "2025-06-24"
+    },
+    {
+      "id": "2025-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2025-06-25",
+      "end": "2025-06-25"
+    },
+    {
+      "id": "2025-muharrem",
+      "key": "muharrem",
+      "start": "2025-06-26",
+      "end": "2025-07-07"
+    },
+    {
+      "id": "2025-sivas",
+      "key": "sivas",
+      "start": "2025-07-02",
+      "end": "2025-07-02"
+    },
+    {
+      "id": "2025-hz-huseyin",
+      "key": "hz-huseyin",
+      "start": "2025-07-05",
+      "end": "2025-07-05"
+    },
+    {
+      "id": "2025-asure",
+      "key": "asure",
+      "start": "2025-07-08",
+      "end": "2025-07-08"
+    },
+    {
+      "id": "2025-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2025-08-16",
+      "end": "2025-08-18"
+    },
+    {
+      "id": "2026-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2026-02-10",
+      "end": "2026-02-12"
+    },
+    {
+      "id": "2026-nevruz",
+      "key": "nevruz",
+      "start": "2026-03-21",
+      "end": "2026-03-21"
+    },
+    {
+      "id": "2026-hidirellez",
+      "key": "hidirellez",
+      "start": "2026-05-05",
+      "end": "2026-05-06"
+    },
+    {
+      "id": "2026-opferfest",
+      "key": "opferfest",
+      "start": "2026-05-27",
+      "end": "2026-05-27"
+    },
+    {
+      "id": "2026-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2026-06-12",
+      "end": "2026-06-14"
+    },
+    {
+      "id": "2026-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2026-06-15",
+      "end": "2026-06-15"
+    },
+    {
+      "id": "2026-muharrem",
+      "key": "muharrem",
+      "start": "2026-06-16",
+      "end": "2026-06-27"
+    },
+    {
+      "id": "2026-asure",
+      "key": "asure",
+      "start": "2026-06-28",
+      "end": "2026-06-28"
+    },
+    {
+      "id": "2026-sivas",
+      "key": "sivas",
+      "start": "2026-07-02",
+      "end": "2026-07-02"
+    },
+    {
+      "id": "2026-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2026-08-16",
+      "end": "2026-08-18"
+    },
+    {
+      "id": "2027-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2027-02-09",
+      "end": "2027-02-11"
+    },
+    {
+      "id": "2027-nevruz",
+      "key": "nevruz",
+      "start": "2027-03-21",
+      "end": "2027-03-21"
+    },
+    {
+      "id": "2027-hidirellez",
+      "key": "hidirellez",
+      "start": "2027-05-05",
+      "end": "2027-05-06"
+    },
+    {
+      "id": "2027-opferfest",
+      "key": "opferfest",
+      "start": "2027-05-16",
+      "end": "2027-05-16"
+    },
+    {
+      "id": "2027-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2027-06-02",
+      "end": "2027-06-04"
+    },
+    {
+      "id": "2027-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2027-06-05",
+      "end": "2027-06-05"
+    },
+    {
+      "id": "2027-muharrem",
+      "key": "muharrem",
+      "start": "2027-06-06",
+      "end": "2027-06-17"
+    },
+    {
+      "id": "2027-asure",
+      "key": "asure",
+      "start": "2027-06-18",
+      "end": "2027-06-18"
+    },
+    {
+      "id": "2027-sivas",
+      "key": "sivas",
+      "start": "2027-07-02",
+      "end": "2027-07-02"
+    },
+    {
+      "id": "2027-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2027-08-16",
+      "end": "2027-08-18"
+    },
+    {
+      "id": "2028-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2028-02-08",
+      "end": "2028-02-10"
+    },
+    {
+      "id": "2028-nevruz",
+      "key": "nevruz",
+      "start": "2028-03-21",
+      "end": "2028-03-21"
+    },
+    {
+      "id": "2028-hidirellez",
+      "key": "hidirellez",
+      "start": "2028-05-05",
+      "end": "2028-05-06"
+    },
+    {
+      "id": "2028-opferfest",
+      "key": "opferfest",
+      "start": "2028-05-05",
+      "end": "2028-05-05"
+    },
+    {
+      "id": "2028-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2028-05-21",
+      "end": "2028-05-23"
+    },
+    {
+      "id": "2028-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2028-05-24",
+      "end": "2028-05-24"
+    },
+    {
+      "id": "2028-muharrem",
+      "key": "muharrem",
+      "start": "2028-05-25",
+      "end": "2028-06-05"
+    },
+    {
+      "id": "2028-asure",
+      "key": "asure",
+      "start": "2028-06-06",
+      "end": "2028-06-06"
+    },
+    {
+      "id": "2028-sivas",
+      "key": "sivas",
+      "start": "2028-07-02",
+      "end": "2028-07-02"
+    },
+    {
+      "id": "2028-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2028-08-16",
+      "end": "2028-08-18"
+    },
+    {
+      "id": "2029-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2029-02-13",
+      "end": "2029-02-14"
+    },
+    {
+      "id": "2029-nevruz",
+      "key": "nevruz",
+      "start": "2029-03-21",
+      "end": "2029-03-21"
+    },
+    {
+      "id": "2029-opferfest",
+      "key": "opferfest",
+      "start": "2029-04-24",
+      "end": "2029-04-24"
+    },
+    {
+      "id": "2029-hidirellez",
+      "key": "hidirellez",
+      "start": "2029-05-05",
+      "end": "2029-05-06"
+    },
+    {
+      "id": "2029-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2029-05-10",
+      "end": "2029-05-12"
+    },
+    {
+      "id": "2029-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2029-05-13",
+      "end": "2029-05-13"
+    },
+    {
+      "id": "2029-muharrem",
+      "key": "muharrem",
+      "start": "2029-05-14",
+      "end": "2029-05-25"
+    },
+    {
+      "id": "2029-asure",
+      "key": "asure",
+      "start": "2029-05-26",
+      "end": "2029-05-26"
+    },
+    {
+      "id": "2029-sivas",
+      "key": "sivas",
+      "start": "2029-07-02",
+      "end": "2029-07-02"
+    },
+    {
+      "id": "2029-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2029-08-16",
+      "end": "2029-08-18"
+    },
+    {
+      "id": "2030-hizir-fasten",
+      "key": "hizir-fasten",
+      "start": "2030-02-12",
+      "end": "2030-02-14"
+    },
+    {
+      "id": "2030-nevruz",
+      "key": "nevruz",
+      "start": "2030-03-21",
+      "end": "2030-03-21"
+    },
+    {
+      "id": "2030-opferfest",
+      "key": "opferfest",
+      "start": "2030-04-24",
+      "end": "2030-04-24"
+    },
+    {
+      "id": "2030-masum-u-paklar",
+      "key": "masum-u-paklar",
+      "start": "2030-04-29",
+      "end": "2030-05-01"
+    },
+    {
+      "id": "2030-fatma-ana",
+      "key": "fatma-ana",
+      "start": "2030-05-02",
+      "end": "2030-05-02"
+    },
+    {
+      "id": "2030-muharrem",
+      "key": "muharrem",
+      "start": "2030-05-03",
+      "end": "2030-05-14"
+    },
+    {
+      "id": "2030-hidirellez",
+      "key": "hidirellez",
+      "start": "2030-05-05",
+      "end": "2030-05-06"
+    },
+    {
+      "id": "2030-asure",
+      "key": "asure",
+      "start": "2030-05-15",
+      "end": "2030-05-15"
+    },
+    {
+      "id": "2030-sivas",
+      "key": "sivas",
+      "start": "2030-07-02",
+      "end": "2030-07-02"
+    },
+    {
+      "id": "2030-haci-bektas",
+      "key": "haci-bektas",
+      "start": "2030-08-16",
+      "end": "2030-08-18"
+    }
+  ]
+}

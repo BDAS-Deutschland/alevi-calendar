@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alevitischer Kalender – Widget &amp; API</title>
+<meta name="description" content="Alevitischer Kalender zum Einbinden, Abonnieren und Herunterladen.">
+<style>
+  :root{--a:#cc2d1d;--tx:#68686b;--line:#e9e9eb}
+  *{box-sizing:border-box}
+  body{margin:0;background:#f6f6f7;color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 16px 64px}
+  h1{margin:0 0 6px;color:var(--a);font-size:clamp(26px,5vw,36px);line-height:1.15}
+  h2{margin:48px 0 10px;color:var(--tx);font-size:20px}
+  .lead{margin:0 0 28px}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13.5px}
+  pre{position:relative;margin:10px 0 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow-x:auto;white-space:pre}
+  p code,li code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+  .copy{position:absolute;top:8px;right:8px;border:1px solid var(--line);background:#fff;color:var(--tx);border-radius:8px;padding:4px 10px;font:600 12px system-ui,sans-serif;cursor:pointer}
+  .copy:hover{color:var(--a);border-color:var(--a)}
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14.5px}
+  td{padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+  td:first-child{white-space:nowrap}
+  a{color:var(--a)}
+  footer{margin-top:56px;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Alevitischer Kalender</h1>
+  <p class="lead">Alle alevitischen Fasten-, Fest- und Gedenktage – zum Einbinden in jede Website, zum Abonnieren und zum Herunterladen. Auf Deutsch, Türkisch und Englisch.</p>
+
+  <alevi-calendar></alevi-calendar>
+
+  <h2>1. Einbinden mit Script (WordPress &amp; Co.)</h2>
+  <p>In WordPress einen Block <b>„Individuelles HTML“</b> einfügen und diesen Code hineinkopieren:</p>
+<pre><button class="copy" type="button">Kopieren</button>&lt;script src="{{BASE_URL}}widget.js" defer&gt;&lt;/script&gt;
+&lt;alevi-calendar lang="de"&gt;&lt;/alevi-calendar&gt;</pre>
+  <p>Optionen: <code>lang="de|tr|en"</code> (Standard: Sprache der Website), <code>year="2027"</code> (Standard: Jahr des nächsten Termins), <code>target="_blank"</code> (Links in neuem Tab).<br>
+  Farben anpassen (optional): <code>&lt;alevi-calendar style="--alevi-accent:#cc2d1d; --alevi-text:#68686b"&gt;</code></p>
+
+  <h2>2. Einbinden mit iframe (Wix, Squarespace, Jimdo …)</h2>
+  <p>Für Baukästen, die keine Scripts erlauben:</p>
+<pre><button class="copy" type="button">Kopieren</button>&lt;iframe src="{{BASE_URL}}embed?lang=de" title="Alevitischer Kalender"
+        allow="clipboard-write" style="width:100%;height:1150px;border:0" loading="lazy"&gt;&lt;/iframe&gt;</pre>
+  <p>Optional: Höhe automatisch anpassen (wenn Scripts erlaubt sind) – dem iframe <code>id="alevi-cal"</code> geben und dazu:</p>
+<pre><button class="copy" type="button">Kopieren</button>&lt;script&gt;
+addEventListener("message", function (e) {
+  if (e.data &amp;&amp; e.data.type === "alevi-calendar:height")
+    document.getElementById("alevi-cal").style.height = e.data.height + "px";
+});
+&lt;/script&gt;</pre>
+
+  <h2>3. Kalender abonnieren oder herunterladen</h2>
+  <p><b>Abonnieren</b> verbindet den eigenen Kalender mit diesem Feed – neue Termine erscheinen automatisch. <b>Herunterladen</b> importiert die Termine einmalig.</p>
+  <table>
+    <tr><td>Deutsch</td><td><code>{{BASE_URL}}abo-de</code></td></tr>
+    <tr><td>Türkçe</td><td><code>{{BASE_URL}}abo-tr</code></td></tr>
+    <tr><td>English</td><td><code>{{BASE_URL}}abo-en</code></td></tr>
+  </table>
+  <p>Im Widget gibt es dafür die Buttons „Abonnieren“ und „Herunterladen“.</p>
+
+  <h2>4. JSON-API</h2>
+  <table>
+    <tr><td><code>GET events.json</code></td><td>Alle Termine mit Titeln und Hinweisen in DE/TR/EN, Kategorie, Link und iCal-Dateien.</td></tr>
+    <tr><td><code>GET abo-{de|tr|en}</code></td><td>Kalender-Feed (iCalendar) pro Sprache.</td></tr>
+    <tr><td><code>GET events/{id}-{lang}.ics</code></td><td>Einzelner Termin, z.&nbsp;B. <code>events/2026-sivas-de.ics</code>.</td></tr>
+  </table>
+<pre>fetch("{{BASE_URL}}events.json")
+  .then(r =&gt; r.json())
+  .then(data =&gt; console.log(data.events));</pre>
+
+  <footer>Daten: <a href="https://aabf-inanc-kurulu.com/alevitische-feiertage-2023-2024/">AABF İnanç Kurulu</a> · Erläuterungen: <a href="https://bdaj.de/Kalender/">BDAJ</a></footer>
+</main>
+<script src="alevi-calendar.js" defer></script>
+<script>
+  document.querySelectorAll(".copy").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = b.parentNode.textContent.replace(b.textContent, "").trim();
+      navigator.clipboard.writeText(text).then(function () {
+        b.textContent = "Kopiert!"; setTimeout(function () { b.textContent = "Kopieren"; }, 1500);
+      });
+    });
+  });
+</script>
+</body>
+</html>

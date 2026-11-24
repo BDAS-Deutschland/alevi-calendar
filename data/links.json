@@ -1,0 +1,16 @@
+{
+  "_comment": "Event key -> URL. null = not clickable. A specific year can be overridden by id, e.g. \"2027-sivas\": \"https://...\".",
+  "hizir-fasten": "https://bdaj.de/Kalender/#ddf0012",
+  "hz-ali-todestag": "https://bdaj.de/Kalender/#3159819",
+  "nevruz": "https://bdaj.de/Kalender/#3159819",
+  "hidirellez": "https://bdaj.de/Kalender/#e3bde65",
+  "opferfest": "https://bdaj.de/Kalender/#a4bb1bb",
+  "gadir-hum": "https://bdaj.de/Kalender/#3159819",
+  "masum-u-paklar": "https://bdaj.de/Kalender/#9e5f6c4",
+  "fatma-ana": "https://bdaj.de/Kalender/#9e5f6c4",
+  "muharrem": "https://bdaj.de/Kalender/#9e5f6c4",
+  "hz-huseyin": "https://bdaj.de/Kalender/#e6938c0",
+  "asure": "https://bdaj.de/Kalender/#2bb276d",
+  "sivas": "https://bdaj.de/Kalender/#1e94470",
+  "haci-bektas": "https://bdaj.de/Kalender/#feb414b"
+}

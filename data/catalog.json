@@ -1,0 +1,80 @@
+{
+  "_comment": "Titles and notes per event key in de/tr/en. The scraper only takes dates from the source site and recognises events by keywords; texts come from here.",
+  "categories": {
+    "fasten":    { "de": "Fasten",    "tr": "Oruç",      "en": "Fast" },
+    "fest":      { "de": "Festtag",   "tr": "Bayram",    "en": "Holy day" },
+    "gedenktag": { "de": "Gedenktag", "tr": "Anma günü", "en": "Remembrance" }
+  },
+  "events": {
+    "hizir-fasten": {
+      "category": "fasten",
+      "title": { "de": "Hızır-Fasten", "tr": "Hızır Orucu", "en": "Hızır Fast" },
+      "note": null
+    },
+    "hz-ali-todestag": {
+      "category": "gedenktag",
+      "title": { "de": "Todestag des Heiligen (Hz.) Ali", "tr": "Hz. Ali'nin Şehadeti", "en": "Martyrdom of Hz. Ali" },
+      "note": { "de": "21. Ramazan 40 (Hidschra-Mondkalender)", "tr": "21 Ramazan 40 (Hicri takvim)", "en": "21 Ramadan 40 (Hijri lunar calendar)" }
+    },
+    "nevruz": {
+      "category": "fest",
+      "title": { "de": "Nevruz – Geburtstag des Heiligen (Hz.) Ali", "tr": "Nevruz – Hz. Ali'nin Doğum Günü", "en": "Nevruz – Birthday of Hz. Ali" },
+      "note": { "de": "21. März 598", "tr": "21 Mart 598", "en": "21 March 598" }
+    },
+    "hidirellez": {
+      "category": "fest",
+      "title": { "de": "Tag des Hızır İlyas (Hıdırellez)", "tr": "Hızır İlyas Günü (Hıdırellez)", "en": "Day of Hızır İlyas (Hıdırellez)" },
+      "note": null
+    },
+    "opferfest": {
+      "category": "fest",
+      "title": { "de": "Opferfest (Kurban Bayramı)", "tr": "Kurban Bayramı", "en": "Feast of Sacrifice (Kurban Bayramı)" },
+      "note": null
+    },
+    "gadir-hum": {
+      "category": "fest",
+      "title": { "de": "Gadir-Hum-Festtag", "tr": "Gadir Hum Bayramı", "en": "Ghadir Khumm Day" },
+      "note": {
+        "de": "Nachfolgeberufung des Heiligen (Hz.) Ali ins Kalifat · 18. Zilhicce 10 (Hidschra-Mondkalender)",
+        "tr": "Hz. Ali'nin halifeliğe atanması · 18 Zilhicce 10 (Hicri takvim)",
+        "en": "Appointment of Hz. Ali as successor · 18 Dhu al-Hijjah 10 (Hijri lunar calendar)"
+      }
+    },
+    "masum-u-paklar": {
+      "category": "fasten",
+      "title": { "de": "Masum-u-Paklar-Fasten", "tr": "Masum-u Paklar Orucu", "en": "Masum-u Paklar Fast" },
+      "note": null
+    },
+    "fatma-ana": {
+      "category": "fasten",
+      "title": { "de": "Fatma-Ana-Fasten", "tr": "Fatma Ana Orucu", "en": "Fatma Ana Fast" },
+      "note": { "de": "Heilige Mutter Fatma", "tr": "Hz. Fatma Ana", "en": "Holy Mother Fatma" }
+    },
+    "muharrem": {
+      "category": "fasten",
+      "days": 12,
+      "title": { "de": "Muharrem-Fasten", "tr": "Muharrem Orucu", "en": "Muharrem Fast" },
+      "note": { "de": "12 Tage lang", "tr": "12 gün sürer", "en": "Lasts 12 days" }
+    },
+    "hz-huseyin": {
+      "category": "gedenktag",
+      "title": { "de": "Todestag des Heiligen (Hz.) Hüseyin", "tr": "Hz. Hüseyin'in Şehadeti", "en": "Martyrdom of Hz. Hüseyin" },
+      "note": { "de": "10. Muharrem 61 (Hidschra-Mondkalender)", "tr": "10 Muharrem 61 (Hicri takvim)", "en": "10 Muharram 61 (Hijri lunar calendar)" }
+    },
+    "asure": {
+      "category": "fest",
+      "title": { "de": "Aşure", "tr": "Aşure Günü", "en": "Aşure" },
+      "note": { "de": "Beendet immer das Muharrem-Fasten", "tr": "Muharrem orucunu sona erdirir", "en": "Always ends the Muharrem fast" }
+    },
+    "sivas": {
+      "category": "gedenktag",
+      "title": { "de": "Gedenktag an das Massaker in Sivas", "tr": "Sivas Katliamı Anma Günü", "en": "Sivas Massacre Remembrance Day" },
+      "note": { "de": "2. Juli 1993", "tr": "2 Temmuz 1993", "en": "2 July 1993" }
+    },
+    "haci-bektas": {
+      "category": "gedenktag",
+      "title": { "de": "Feier zum Gedenken an Hacı Bektaş Veli", "tr": "Hacı Bektaş Veli Anma Törenleri", "en": "Hacı Bektaş Veli Commemoration" },
+      "note": null
+    }
+  }
+}
